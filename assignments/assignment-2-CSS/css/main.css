@@ -8,11 +8,6 @@ li {
   margin-left: auto;
 }
 
-.octodex {
-  position: absolute;
-  text-align: center;
-}
-
 li.octocat {
   width: 33%;
   height: 33%;
@@ -46,27 +41,6 @@ a {
   font-weight: bold;
 }
 
-.authors img {
-  width: 30px;
-  height: 30px;
-  border: 0px;
-  border-radius: 5px;
-  display: inline;
-  float: right;
-}
-
-.image-caption {
-  float: right;
-  position: relative;
-  margin-right: -20px;
-}
-
-.authors {
-  float: right;
-  position: relative;
-  display: inline-block;
-}
-
 .image-number {
   float: left;
   position: relative;
@@ -76,4 +50,27 @@ a {
 
 .image-number:before {
   content: "#";
+}
+
+.image-caption {
+  width: 70%;
+  position: relative;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.authors {
+  float: right;
+  position: relative;
+}
+
+.authors img {
+  width: 30px;
+  height: 30px;
+  border: 0px;
+  border-radius: 5px;
+  display: inline-block;
+  float: right;
+  position: relative;
+  margin-left: 5px;
 }
